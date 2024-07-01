@@ -1,0 +1,35 @@
+.Roboto_thin{
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.Roboto_medium{
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.Roboto_bold{
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.Ubuntu_medium{
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.Ubuntu_medium_italic{
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.search::before{
+  content: '\f002';
+  font-family: "Font Awesome 6 Free";
+  font: var(--fa-font-solid);
+}

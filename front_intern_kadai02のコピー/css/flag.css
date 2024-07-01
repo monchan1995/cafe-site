@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #ffffff; /* 白色 */
+}
+
+.flag {
+    width: 200px;
+    height: 120px;
+    background-color: #ffffff; /* 赤色 */
+    position: relative;
+    border: 1px solid #000;
+    margin: 20px;
+}
+
+.circle {
+    width: 80px;
+    height: 80px;
+    background-color: #d7003a; /* 白色 */
+    border-radius: 50%;
+    position: absolute;
+    top: 20px;
+    left: 60px;
+}
+
+.flag-uae{
+margin: 20px;
+display: flex;
+}
+
+.uae-box-left{
+width: 100px;
+height: 200px;
+background-color: red;
+border: 1px solid #000;
+border-right: 0px solid #000;
+}
+
+.uae-box-right{
+width: 300px;
+height: 200px;
+display: flex;
+flex-direction: column;
+border: 1px solid #000;
+}
+
+.uae-box-right1, .uae-box-right2, .uae-box-right3{
+height: 33.3333%;
+background-color: blue;
+}
+
+.uae-box-right1{
+background-color: #00732f ;
+}
+
+.uae-box-right2{
+background-color: #000;
+}
+
+.uae-box-right3{
+background-color: #fff;
+}
+
